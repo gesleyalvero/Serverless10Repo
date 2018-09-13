@@ -1,0 +1,26 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "type": "documentDB",
+      "name": "inputDocument",
+      "databaseName": "hacker2db",
+      "collectionName": "Items",
+      "connection": "hacker2db_DOCUMENTDB",
+      "direction": "in",
+      "partitionKey": "pk2",
+      "sqlQuery": "SELECT * FROM d WHERE d.Id={ratingId}"
+    },
+    {
+      "type": "http",
+      "name": "res",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

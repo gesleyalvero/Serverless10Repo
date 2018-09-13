@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "type": "documentDB",
+      "name": "outputDocument",
+      "databaseName": "hacker2db",
+      "collectionName": "Items",
+      "createIfNotExists": true,
+      "connection": "hacker2db_DOCUMENTDB",
+      "direction": "out"
+    },
+    {
+      "type": "httpTrigger",
+      "name": "req",
+      "authLevel": "anonymous",
+      "methods": [
+        "post"
+      ],
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}

@@ -1,0 +1,26 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "documentDB",
+      "name": "inputDocument",
+      "databaseName": "hacker2db",
+      "collectionName": "Items",
+      "partitionKey": "pk2",
+      "sqlQuery": "SELECT * FROM d WHERE d.userId={userId}",
+      "connection": "hacker2db_DOCUMENTDB",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}

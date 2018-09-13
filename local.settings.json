@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "hacker2db_DOCUMENTDB": "AccountEndpoint=https://hacker2db.documents.azure.com:443/;AccountKey=i4T6HKE37CIZSvfmvGInbLqV1vwGr9jgUp1j0bCYn2f0GsIZx6fr6YFZVhbJIzoivCD4IfEfcIUMsboAVCdDJg==;",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=serverlessopenhack201809;AccountKey=DvS3DGMlCdFYXaYFIR6X5pR1RJkl6fj/rBzOMydYN6BmVlNZiAwQt2Dw7Gcg36HbCT86e9MRMfUlgaGOvvGD2Q==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=serverlessopenhack201809;AccountKey=DvS3DGMlCdFYXaYFIR6X5pR1RJkl6fj/rBzOMydYN6BmVlNZiAwQt2Dw7Gcg36HbCT86e9MRMfUlgaGOvvGD2Q==",
+    "WEBSITE_CONTENTSHARE": "serverless10-content-b25f",
+    "DB1": "AccountEndpoint=https://hacker2db.documents.azure.com:443/;AccountKey=i4T6HKE37CIZSvfmvGInbLqV1vwGr9jgUp1j0bCYn2f0GsIZx6fr6YFZVhbJIzoivCD4IfEfcIUMsboAVCdDJg==;",
+    "serverlessopenhack201809_STORAGE": "DefaultEndpointsProtocol=https;AccountName=serverlessopenhack201809;AccountKey=DvS3DGMlCdFYXaYFIR6X5pR1RJkl6fj/rBzOMydYN6BmVlNZiAwQt2Dw7Gcg36HbCT86e9MRMfUlgaGOvvGD2Q==",
+    "WEBSITE_SITE_NAME": "Serverless10",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=serverlessopenhack201809;AccountKey=DvS3DGMlCdFYXaYFIR6X5pR1RJkl6fj/rBzOMydYN6BmVlNZiAwQt2Dw7Gcg36HbCT86e9MRMfUlgaGOvvGD2Q=="
+  }
+}
